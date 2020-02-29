@@ -145,6 +145,7 @@ properties:
               - amlogic,u200
               - radxa,zero
               - seirobotics,sei510
+              - oranth,tx5-max
           - const: amlogic,g12a
 
       - description: Boards with the Amlogic Meson G12B A311D SoC
