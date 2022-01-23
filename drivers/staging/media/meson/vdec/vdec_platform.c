@@ -112,17 +112,6 @@ static const struct amvdec_format vdec_formats_gxl[] = {
 		.firmware_path = "meson/vdec/gxl_mpeg12.bin",
 		.pixfmts_cap = { V4L2_PIX_FMT_NV12M, V4L2_PIX_FMT_YUV420M, 0 },
 		.flags = V4L2_FMT_FLAG_COMPRESSED,
-	}, {
-		.pixfmt = V4L2_PIX_FMT_MPEG2,
-		.min_buffers = 8,
-		.max_buffers = 8,
-		.max_width = 1920,
-		.max_height = 1080,
-		.vdec_ops = &vdec_1_ops,
-		.codec_ops = &codec_mpeg12_ops,
-		.firmware_path = "meson/vdec/gxl_mpeg12.bin",
-		.pixfmts_cap = { V4L2_PIX_FMT_NV12M, V4L2_PIX_FMT_YUV420M, 0 },
-		.flags = V4L2_FMT_FLAG_COMPRESSED,
 	},
 };
 
