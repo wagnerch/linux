@@ -66,9 +66,6 @@
 		regulator-min-microvolt = <5000000>;
 		regulator-max-microvolt = <5000000>;
 		vin-supply = <&ao_5v>;
-
-		gpio = <&gpio_ao GPIOAO_7 GPIO_ACTIVE_HIGH>;
-		enable-active-high;
 	};
 
 	ao_5v: regulator-ao_5v {
